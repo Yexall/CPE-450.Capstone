@@ -1,0 +1,16 @@
+|| Resources ||
+-Running loki:
+https://grafana.com/docs/loki/latest/get-started/quick-start/
+
+- Machine data collection instructions:
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/machine-data-collection---ngc.html
+https://www.haascnc.com/service/online-manuals/next-gen-control-electrical---service-manual/ngc---machine-data-collection.html
+
+- General Operator's Manual:
+https://www.haascnc.com/owners/Service/operators-manual.html
+
+- UMC Operator Manual:
+https://www.haascnc.com/service/online-operator-s-manuals/umc-series-operator-s-manual-supplement/umc---introduction.html
+
+- Macros Table
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/mill-user-definable-macros.html

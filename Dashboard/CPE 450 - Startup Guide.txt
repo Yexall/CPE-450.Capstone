@@ -1,0 +1,78 @@
+|| MTConnect Agent Guide ||
+
+*** The following steps was done using the cppagent version v2.4.0.9. Future versions should be relatively the same ***
+
+Step 1: Download cppagent
+	- Open your browser and go to the official cppagent repository: https://github.com/mtconnect/cppagent
+	- Scroll down to the "Releases" section.
+	- Download the latest version of cppagent for Windows. The file will be in .zip format.
+Step 2: Extract the Files
+	- Locate the downloaded .zip file (usually in your Downloads folder).
+	- Right-click the file and select "Extract All…".
+	- Choose a location to extract the files (e.g., C:\Users\YourName\Downloads\agent-2.4.0.9-win64).
+	- Click "Extract" and wait for the process to complete.
+Step 3: Locate the Executable
+	- Open the extracted folder.
+	- Inside, navigate to the bin directory. This is where the main executable (agent.exe) is located.
+Step 4: Open a Terminal and Navigate to the bin Folder
+	- To run cppagent, you need to open a terminal and change the directory to the bin folder.
+	- Use the cd command to navigate to the bin folder: cd "C:\Users\YourName\Downloads\agent-2.4.0.9-win64\agent-2.4.0.9-win64\bin"
+		- Replace YourName with your actual Windows username.
+Step 5: Verify cppagent is Working
+	- To confirm cppagent is working, type: .\agent.exe
+	- This will display a list of available commands. The format for running cppagent is: .\agent.exe COMMAND
+		- Replace COMMAND with one of the available commands from the list.
+Step 6: Locate the Configuration File
+	- For cppagent to run, it requires a configuration file. The default file is named agent.cfg and is located in the folders: demo/agent/agent.cfg
+	- 2 Options for Using the Config File:
+		1. Move the agent.cfg File: Copy agent.cfg to the bin directory where agent.exe is located.
+							OR
+		2. If you don’t want to move the file, run cppagent with the full path to agent.cfg: .\agent.exe run "C:\Users\YourName\Downloads\agent-2.4.0.9-win64\agent-2.4.0.9-win64\demo\agent\agent.cfg"
+Step 7: Run cppagent
+	- To start cppagent, use: .\agent.exe run agent.cfg 
+			OR 
+				: .\agent.exe run "C:\Users\YourName\Downloads\agent-2.4.0.9-win64\agent-2.4.0.9-win64\demo\agent\agent.cfg" 
+	- If you prefer detailed output: .\agent.exe debug agent.cfg
+Step 8: Find the Port Number
+	- When you run cppagent, the terminal may not explicitly tell you what port it is using. To find the Port: Open agent.cfg in Notepad or any text editor.
+	- Look for a line that specifies the port: Port = 5000
+		- If no port is listed, the default is usually 5000.
+Step 9: Access cppagent in a Browser
+	- Open a web browser. Go to: http://localhost:5000/
+		- Replace 5000 with the port number from agent.cfg.
+	- If everything is set up correctly, you should see an XML response with MTConnect data.
+Step 10: You're Done! 🎉
+	- Congratulations! cppagent is now running.
+
+|| Ethernet Connection Guide ||
+1. Control panel
+2. Network and Security
+
+Change ethernet adapter:
+-Change IP address to one on the machine, set the same subnet mask and set the default gateway to eth0: 192.168.10.1
+
+|| Running MTConnect ||
+1. cd "C:\Users\yexal\Downloads\cppagent\bin"
+2. .\agent.exe run "C:\Users\yexal\Downloads\cppagent\demo\agent\agent.cfg"
+3. http://localhost:5001/ 				- Website URL to access the running instance of MTConnect
+4. http://192.168.10.10:8082/UMC-500SS/current 		- URL to access machine data. Set to "/probe" (list of data that can be connected), 								"/current" (list current data) or "/sample" (list data collected wthin a longer period)
+
+|| Running Prometheus -- Database that stores data||
+1. cd "C:\Users\yexal\Downloads\Prometheus"
+2. ./prometheus --config.file=prometheus.yml
+3. http://localhost:9090
+
+|| Running Prometheus Gateway -- Required to send data to Prometheus ||
+1. cd "C:\Users\yexal\Downloads\Prometheus-PushGateway"
+2. ./pushgateway
+3. http://localhost:9091
+
+|| PDC Agent -- Needed to add Prometheus as a data source that you can display in Grafana ||
+1. In Grafana: Home -> Connections -> Private Data Source Connect
+2. Using the binary method:
+3. Create a new token
+4. Download the agent based on your operating systems
+5. Open a terminal and type: cd "C:\Users\yexal\Downloads\PDC-Agent"
+6. Copy the binary and put into terminal
+
+

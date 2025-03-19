@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SI-52003-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SI-52003-F.kicad_sym")(options "")(descr ""))
+  (lib (name "silvertel")(type "KiCad")(uri "${KIPRJMOD}/symbols/silvertel.kicad_sym")(options "")(descr ""))
+)

@@ -4,12 +4,16 @@ Board assembly prints and schematics for the final prototypes are provided in th
 
 ## Main Board
 Bringup notes and notes for the next revision of the main board can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha/bringup_notes.md)
+
 An interactive HTML BOM can be found [here](https://html-preview.github.io/?url=https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha/bom/ibom.html)
+
 A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha_assembly.pdf)
+
 A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha_schem.pdf)
 
 ## IIS3DWB Breakout
 A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta_assembly.pdf)
+
 A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta_schem.pdf)
 
 ## Copyright

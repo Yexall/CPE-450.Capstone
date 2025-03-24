@@ -2386,6 +2386,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Copyright Ryan Jacoby, Cal Poly CPE Department, Cal Poly IME Department 2025.\n\nThis source describes Open Hardware and is licensed under the CERN-OHL-P v2\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2\nfor applicable conditions"
+		(at 18.55 197.25 0)
+		(layer "F.Fab")
+		(uuid "cb39552d-a9c1-415b-9467-9504c2261455")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type center)
 		(layer "F.Fab")

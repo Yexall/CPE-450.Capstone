@@ -1354,6 +1354,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Copyright Ryan Jacoby, Cal Poly CPE Department, Cal Poly IME Department 2025.\n\nThis source describes Open Hardware and is licensed under the CERN-OHL-P v2\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2\nfor applicable conditions"
+		(exclude_from_sim no)
+		(at 18.542 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36b88c4a-85d4-403d-99b1-2da0cf407233")
+	)
 	(text "Pull-up disables SPI and enables I2C;\nto disable I2C, SPI CS can be pulled low"
 		(exclude_from_sim no)
 		(at 82.042 55.626 0)

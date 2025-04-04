@@ -7,14 +7,14 @@ Bringup notes and notes for the next revision of the main board can be found [he
 
 An interactive HTML BOM can be found [here](https://html-preview.github.io/?url=https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha/bom/ibom.html)
 
-A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha_assembly.pdf)
+A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha/plots/hw_alpha__Assembly.pdf)
 
-A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha_schem.pdf)
+A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/hw_alpha/hw_alpha_schem.pdf)
 
 ## IIS3DWB Breakout
-A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta_assembly.pdf)
+A downloadable PDF assembly document can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta/plots/IIS3DWB_breakout_beta__Assembly.pdf)
 
-A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta_schem.pdf)
+A downloadable PDF schematic can be found [here](https://github.com/Yexall/CPE-450.Capstone/blob/main/Hardware/IIS3DWB_breakout_beta/IIS3DWB_breakout_beta_schem.pdf)
 
 ## Copyright
 Copyright Ryan Jacoby, Cal Poly CPE Department, Cal Poly IME Department 2025.
